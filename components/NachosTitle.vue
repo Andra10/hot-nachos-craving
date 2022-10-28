@@ -18,6 +18,6 @@ export default {
 {
   font-size: 60px;
   color: #3f51b5;
-  font-family: 'Staatliches', cursive;
+  font-family: 'Staatliches', cursive !important;
 }
 </style>
