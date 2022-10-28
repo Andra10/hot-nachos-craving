@@ -1,0 +1,59 @@
+<template>
+  <v-app>
+    <!--    header background moving nachos--> 
+    <NuxtLink :to="localePath('/')">
+      <v-app-bar
+        app
+        absolute
+        flat
+        color="white"
+        prominent
+      >
+      </v-app-bar>
+    </NuxtLink>
+
+    <v-main>
+      <v-container class="fill-height">
+        <Nuxt />
+      </v-container>
+    </v-main>
+
+    <!--    footer -->
+    <Foot />
+
+    <!--    This is a snackbar -->
+    <CookieConsent />
+  </v-app>
+</template>
+
+<script>
+import Foot from '@/components/Foot';
+import CookieConsent from '@/components/CookieConsent';
+
+export default {
+  name: 'Default',
+  components: {
+    CookieConsent,
+    Foot,
+  },
+  head() {
+    return {
+      htmlAttrs: {
+        lang: this.$i18n.locale,
+      },
+      link: [
+        {
+          rel: 'canonical',
+          href: 'hot-nachos-craving' + this.$route.path,
+        },
+      ],
+    };
+  },
+};
+</script>
+
+<style scoped>
+.v-app-bar {
+  max-height: 128px !important;
+}
+</style>
