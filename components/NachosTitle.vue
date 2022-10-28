@@ -14,7 +14,7 @@ export default {
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
-.nachos-title 
+.nachos-title, .mt-2
 {
   font-size: 60px;
   color: #3f51b5;
