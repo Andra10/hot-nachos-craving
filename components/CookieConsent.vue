@@ -76,7 +76,7 @@ export default {
       return parts.length !== 2 ? undefined : parts.pop().split(';').shift();
     },
     leave() {
-      window.open('https://tasty.co/recipe/the-best-chewy-chocolate-chip-cookies', '_blank');
+      window.open('https://tasty.co/compilation/nachos-lovers-only', '_blank');
     },
   },
 };
