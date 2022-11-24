@@ -21,7 +21,7 @@ https://hot-nachos-craving-andra10.vercel.app/en
 
 ## Screenshots
 
-![App Screenshot](/static/hot-nachos-craving.png)
+![App Screenshot](/static/hot-nachos-craving.png =100x20)
 
 
 ## Run Locally
