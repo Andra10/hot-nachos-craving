@@ -18,7 +18,7 @@ export const options = {
   sortRoutes: true,
   strategy: "prefix_except_default",
   lazy: true,
-  langDir: "/Users/usuario/hot-nacho-craving/hot-nachos-craving/lang",
+  langDir: "/Users/usuario/hot-nachos-craving/lang",
   rootRedirect: null,
   detectBrowserLanguage: {"alwaysRedirect":false,"cookieCrossOrigin":false,"cookieDomain":null,"cookieKey":"i18n_redirected","cookieSecure":false,"fallbackLocale":"","redirectOn":"root","useCookie":false},
   differentDomains: false,
