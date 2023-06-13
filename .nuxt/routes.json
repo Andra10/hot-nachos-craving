@@ -2,15 +2,15 @@
   {
     "name": "about-me___en",
     "path": "/en/about-me",
-    "component": "/Users/usuario/hot-nachos-craving/pages/about-me.vue",
+    "component": "/Users/usuario/hot-nachos-craving/hot-nachos-craving/pages/about-me.vue",
     "chunkName": "pages/about-me",
-    "_name": "_5d9ed81c"
+    "_name": "_40087a48"
   },
   {
     "name": "index___en",
     "path": "/en",
-    "component": "/Users/usuario/hot-nachos-craving/pages/index.vue",
+    "component": "/Users/usuario/hot-nachos-craving/hot-nachos-craving/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_5c49dc3e"
+    "_name": "_1752e97e"
   }
 ]

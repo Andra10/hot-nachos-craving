@@ -30,6 +30,7 @@
     "nuxt-edge": "latest",
     "u5": "^0.0.0",
     "ua-parser-js": "^1.0.33",
+    "vite": "^2.9.16",
     "vuetify": "^2.5.5",
     "widest-line": "^4.0.1"
   },
