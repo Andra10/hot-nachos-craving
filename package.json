@@ -19,6 +19,7 @@
     "*.{css,vue}": "stylelint"
   },
   "dependencies": {
+    "@babel/core": "^7.23.7",
     "@nuxt/core-edge": "^2.16.0-27720022.54e852f",
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/i18n": "^7.1.0",
